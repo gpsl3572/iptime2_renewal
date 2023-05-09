@@ -6,6 +6,7 @@
 } */
 
 body{
+    width: 100vw;
     overflow-x: hidden;
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Noto Sans KR', sans-serif;
@@ -18,8 +19,6 @@ body{
     box-sizing: border-box;
 }
 
-.secmargin{}
-
 .sec2{
     padding-left: 20%;
     box-sizing: border-box;
@@ -30,4 +29,11 @@ body{
     font-size: 3em;
     font-weight: 900;
     text-transform: uppercase;
+}
+
+@media screen and (max-width:800px) {
+
+
+
+/* body end */
 }

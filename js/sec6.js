@@ -7,13 +7,14 @@ var swiper = new Swiper(".sec6Swiper", {
     prevEl: ".swiper-button-prev",
   },
 
+
+  // breakpoints: {
+  //   769: {
+  //     slidesPerView: 2,
+  //     slidesPerGroup: 2,
+  //   },
+  // },
+
   
 });
 
-
-// breakpoints: {
-//   // when window width is >= 320px
-//   320: {
-//     slidesPerView: 2,
-//     spaceBetween: 20
-//   },
