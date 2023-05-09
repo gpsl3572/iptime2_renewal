@@ -1,0 +1,55 @@
+.sec1{
+    height: 100vh;
+    background: url(../../img/sec1.jpg) no-repeat center/ cover;
+    position: relative;
+}
+
+.tiyping{
+    text-align: center;
+    color: #fff;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 900;
+    position: absolute;
+    top: 40%; left: 50%;
+    transform: translatex(-50%);
+}
+
+.main_title{
+    font-weight: 900;
+}
+
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+
+
+
+.scroll_down{
+    width: 20px;
+    animation: Movedown 1s ease-in-out infinite;
+    position: absolute;
+    bottom: 30px; left: 50%;
+}
+
+
+@keyframes Movedown{
+    0%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(15px);
+    }
+}
+
+
+
+
+
+

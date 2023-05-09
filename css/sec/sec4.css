@@ -1,0 +1,48 @@
+.sec4{
+    height: 100vh;
+    padding-top: 1%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4_figure{
+    position: absolute;
+    z-index: -10px;
+    width: 400px;
+    animation: run 60s infinite;
+}
+
+
+@keyframes run {
+    
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+
+.sec4_titlewrap{
+    width: 700px;
+    font-size: 3.8em;
+    line-height: 90px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+}
+
+.sec4_titleBottom{
+ float: right;
+}
+
+.sec4_smalltitle{
+    margin-top: 30px;
+    font-weight: 600;
+    color: #646464;
+}

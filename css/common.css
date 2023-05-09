@@ -1,0 +1,33 @@
+/* body{
+    font-family: 'Damion', cursive;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+} */
+
+body{
+    overflow-x: hidden;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+.sec{
+    width: 100vw;
+    padding: 0 20%;
+    box-sizing: border-box;
+}
+
+.secmargin{}
+
+.sec2{
+    padding-left: 20%;
+    box-sizing: border-box;
+}
+
+.sub_title{
+    letter-spacing: 1px;
+    font-size: 3em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
