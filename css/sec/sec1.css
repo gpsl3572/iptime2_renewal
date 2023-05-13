@@ -49,6 +49,17 @@
 }
 
 
+@media screen and (max-width:800px) {
+
+    .tiyping{
+        font-size: 3em;
+    }
+
+
+/* media end */
+}
+
+
 
 
 

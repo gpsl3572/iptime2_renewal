@@ -11,7 +11,6 @@ const handleScroll = () => {
         headerEl.classList.remove("bg_active");
     }
 
-
 }
 
 window.addEventListener('scroll',handleScroll);

@@ -46,3 +46,19 @@
     font-weight: 600;
     color: #646464;
 }
+
+
+@media screen and (max-width:768px) {
+ 
+    .sec4_titlewrap{
+        width: 85%;
+        font-size: 3em;
+    }
+    
+
+    
+
+
+
+/* media end */
+}

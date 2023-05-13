@@ -37,22 +37,32 @@
                 <li><a href="#sec7">NEWS</a></li>
             </ul>
 
-            <div class="mo_btn">
-                <i class="fa-solid fa-bars"></i>
+            <div id="btn">
+                <div id="btn_wrap">
+                    <div id="btn_top" class="top_move line in_btn"></div>
+                    <div id="btn_mid" class="mid_move line in_btn"></div>
+                    <div id="btn_bot" class="bot_move line in_btn"></div>
+                </div>
             </div>
 
-            <div class="mo_menuwrap">
 
-                <div class="del_btn">
-                    <i class="fa-solid fa-arrow-right"></i>
+            
+            <div class="pop_menu">
+
+            
+                <div class="pop_menu_wrap">
+
+                    <ul class="momenu_wrap">
+
+                        <li><a href="#sec2">BEST</a></li>
+                        <li><a href="#sec5">PRODUCTS</a></li>
+                        <li><a href="#sec6">All</a></li>
+                        <li><a href="#sec7">NEWS</a></li>
+
+                    </ul>
+
                 </div>
 
-                <ul class="mo_menu">
-                    <li><a href="#sec2">BEST</a></li>
-                    <li><a href="#sec5">PRODUCTS</a></li>
-                    <li><a href="#sec6">All</a></li>
-                    <li><a href="#sec7">NEWS</a></li>
-                </ul>
             </div>
 
         </header>
@@ -230,30 +240,28 @@
 
                     <div class="sec5_con sec5_conBig">
                        
-                        <div class="sec5_conimg">
-                            <a href="#">
-                                <img src="./img/sec5con1.png" alt="">
-                            </a>
-                        </div>
+                        <a href="#">
+                            <div class="sec5_conimg sec5_conimg1"></div>
 
-                        <div class="sec5_context">
-                            모든 프로그램 완벽 지원<br/>
-                            <span>어플리케이션, 모든 게임, P2P, 메신저 모두 완벽히 호환</span>
-                        </div>
+                            <div class="sec5_context">
+                                모든 프로그램 완벽 지원<br/>
+                                <span>어플리케이션, 모든 게임, P2P, 메신저 모두 완벽히 호환</span>
+                            </div>
+                        </a>
 
                     </div>
+
                     <div class="sec5_con sec5_conSmall">
 
-                        <div class="sec5_conimg">
-                            <a href="#">
-                                <img src="./img/sec5con2.png" alt="">
-                            </a>
-                        </div>
+                      <a href="#">
+                        <div class="sec5_conimg sec5_conimg2"></div>
 
                         <div class="sec5_context">
                             100% 한글화<br/>
                             <span>메뉴얼, 모든설치 과정 한글 지원</span>
                         </div>
+                      </a>
+
                     </div>
 
                 </div>
@@ -262,30 +270,27 @@
 
                     <div class="sec5_con sec5_conSmall">
 
-                        <div class="sec5_conimg">
-                            <a href="#">
-                                <img src="./img/sec5con3.png" alt="">
-                            </a>
-                        </div>
+                        <a href="#">
+                            <div class="sec5_conimg sec5_conimg3"></div>
 
-                        <div class="sec5_context">
-                            QoS 속도 제어<br/>
-                            <span>PC별, 어플리케이션 별로 속도 제어 가능</span>
-                        </div>
+                            <div class="sec5_context">
+                                QoS 속도 제어<br/>
+                                <span>PC별, 어플리케이션 별로 속도 제어 가능</span>
+                            </div>
+                        </a>
 
                     </div>
+
                     <div class="sec5_con sec5_conBig">
 
-                        <div class="sec5_conimg">
-                            <a href="#">
-                                <img src="./img/sec5con4.png" alt="">
-                            </a>
-                        </div>
-
-                        <div class="sec5_context">
-                            현존하는 공유기의 결정판<br/>
-                            <span>WOL기능, 네트워크 커넥션 관리, 고가의 네트워크 기능 탑재</span>
-                        </div>
+                        <a href="#">
+                            <div class="sec5_conimg sec5_conimg4"></div>
+    
+                            <div class="sec5_context">
+                                현존하는 공유기의 결정판<br/>
+                                <span>WOL기능, 네트워크 커넥션 관리, 고가의 네트워크 기능 탑재</span>
+                            </div>
+                        </a>
 
                     </div>
 
@@ -503,12 +508,14 @@
     <!-- wrap end -->
     </div>    
 
+  
     <script src="./js/sec1.js"></script>
     <script src="./js/sec2.js"></script>
     <script src="./js/sec6.js"></script>
     <script src="./js/scroll.js"></script>
-    <script src="./js/momenu.js"></script>
+    <script src="./js/btn.js"></script>
     <script>AOS.init();</script>
+    
 
 </body>
 </html>

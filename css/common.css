@@ -19,10 +19,6 @@ body{
     box-sizing: border-box;
 }
 
-.sec2{
-    padding-left: 20%;
-    box-sizing: border-box;
-}
 
 .sub_title{
     letter-spacing: 1px;
@@ -33,7 +29,10 @@ body{
 
 @media screen and (max-width:800px) {
 
-
+    .sec{
+        padding: 0 5%;
+    }
 
 /* body end */
 }
+

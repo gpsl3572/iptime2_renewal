@@ -1,18 +1,19 @@
 .sec3{
     width: 100vw;
-    height: 100vh;
     background-color: #3d86ad11;
-    padding-top: 5%;
+    padding-top: 13%;
+    padding-bottom: 13%;
 }
 
 .sec3_conwrap{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .sec3_imgbox{
-    width: 500px;
+    width: 40%;
+    /* 500 / 1200 * 100 */
 }
 
 .sec3_textbox{
@@ -49,6 +50,36 @@
     align-items: center;
     justify-content: center;
 }
+
+
+@media screen and (max-width:768px) {
+
+    .sec3{
+        height: 100vh;
+    }
+
+
+    .sec3_conwrap{
+        flex-direction: column;
+    }
+
+    .sec3_imgbox{
+        margin-top: 50px;
+        width: 350px;
+    }
+
+    .sec3_textbox{
+        margin-top: 50px;
+        height: 270px;
+    }
+
+
+
+/* media end */
+}
+
+
+
 
 
 
